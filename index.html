@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Project</title>
+    <link rel="stylesheet" href="./index.css"></link>
+</head>
+<body>
+    <h1>hello top of root</h1>
+    <!-- Way to add using direct HTML -->
+    <div id="root">
+        <h1>Hello World From Index.html</h1>
+    </div>
+    <!-- react only takes control over one root of the window and do update and changes inside it
+        ....below and above div id root -->
+    <h1>hello bottom of root</h1>
+
+    <!-- Way to add using Js -->
+    <!-- <script src="./script.js" defer></script> -->
+    
+    <!-- Way to add using React CDN way -->
+    <script 
+        crossorigin 
+        src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    
+    <!-- Script Js injection -->
+    <!-- <script src="./App.js"></script> -->
+    <script src="./Example.js"></script>
+</body>
+</html>
