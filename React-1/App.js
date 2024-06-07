@@ -1,3 +1,5 @@
+import React from "react";
+import ReactDOM  from "react-dom/client";
 const h1 = React.createElement("h1",{style:{backgroundColor : "green"}},"Hello World from React!");
 //it's an object - react element - normaal js element
 // createElement

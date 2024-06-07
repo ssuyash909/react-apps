@@ -1,3 +1,5 @@
+import React from "react";
+import ReactDOM  from "react-dom/client";
 /*
 <div id = "parent">
     <div id="child">
@@ -34,9 +36,8 @@ to overpass writing this way of createlement and children there is Existence of 
 JSX - lets us write hmtl in js
 */
 
-ReactDOM.render(
-    parent,
-    document.getElementById("root")
-);
+const root = ReactDOM.createRoot(document.getElementById("root"));
+//create root is reponsible to create/assign a root to particlar element
+root.render(parent);
 
 
